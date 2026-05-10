@@ -93,7 +93,7 @@ const config: Config = {
         },
         {
           to: '/rsvp',
-          label: 'RSVP',
+          label: 'Votre réponse',
           position: 'right',
         },
       ],

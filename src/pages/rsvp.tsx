@@ -14,7 +14,7 @@ export default function RSVP() {
         <section className="rsvpCard">
           <p className="rsvpEyebrow">Réponse souhaitée</p>
 
-          <h1>RSVP</h1>
+          <h1>Votre réponse</h1>
 
           <p className="rsvpIntro">
             Merci de nous confirmer votre présence afin de nous aider à organiser
