@@ -13,6 +13,7 @@ const config: Config = {
 
   url: 'https://lisam02.github.io',
   baseUrl: '/mariage/',
+  trailingSlash: false,
 
   organizationName: 'lisam02',
   projectName: 'mariage',
@@ -32,7 +33,9 @@ const config: Config = {
         docs: {
           sidebarPath: './sidebars.ts',
         },
+
         blog: false,
+
         theme: {
           customCss: './src/css/custom.css',
         },
@@ -51,23 +54,91 @@ const config: Config = {
 
     navbar: {
       title: 'Lisa-Marie & Thomas',
+
       logo: {
         alt: 'Logo olivier',
         src: 'img/olivier.png',
       },
+
       items: [
-        {to: '/', label: 'Accueil', position: 'left'},
-        {to: '/docs/programme', label: 'Programme', position: 'left'},
-        {to: '/docs/lieu', label: 'Lieu', position: 'left'},
-        {to: '/docs/hebergement', label: 'Hébergement', position: 'left'},
-        {to: '/docs/transport', label: 'Transport', position: 'left'},
-        {to: '/docs/faq', label: 'FAQ', position: 'left'},
-        {to: '/rsvp', label: 'RSVP', position: 'right'},
+        {
+          to: '/',
+          label: 'Accueil',
+          position: 'left',
+        },
+        {
+          to: '/docs/programme',
+          label: 'Programme',
+          position: 'left',
+        },
+        {
+          to: '/docs/lieu',
+          label: 'Lieu',
+          position: 'left',
+        },
+        {
+          to: '/docs/hebergement',
+          label: 'Hébergement',
+          position: 'left',
+        },
+        {
+          to: '/docs/transport',
+          label: 'Transport',
+          position: 'left',
+        },
+        {
+          to: '/docs/faq',
+          label: 'FAQ',
+          position: 'left',
+        },
+        {
+          to: '/rsvp',
+          label: 'RSVP',
+          position: 'right',
+        },
       ],
     },
 
     footer: {
       style: 'light',
+
+      links: [
+        {
+          title: 'Informations',
+          items: [
+            {
+              label: 'Programme',
+              to: '/docs/programme',
+            },
+            {
+              label: 'Lieu',
+              to: '/docs/lieu',
+            },
+            {
+              label: 'Hébergement',
+              to: '/docs/hebergement',
+            },
+          ],
+        },
+        {
+          title: 'Pratique',
+          items: [
+            {
+              label: 'Transport',
+              to: '/docs/transport',
+            },
+            {
+              label: 'FAQ',
+              to: '/docs/faq',
+            },
+            {
+              label: 'RSVP',
+              to: '/rsvp',
+            },
+          ],
+        },
+      ],
+
       copyright: `Lisa-Marie & Thomas — 22 mai 2027`,
     },
 
