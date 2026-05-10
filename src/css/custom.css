@@ -50,3 +50,22 @@ body {
   --ifm-color-primary-lightest: #4fddbf;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
 } */
+
+.footer {
+  background: #fbf6ec !important;
+  border-top: 1px solid rgba(70, 82, 56, 0.1);
+  padding: 2rem 1rem;
+}
+
+.footer__copyright {
+  color: #7d745f;
+  text-align: center;
+  font-family: Georgia, 'Times New Roman', serif;
+  font-style: italic;
+  letter-spacing: 0.08em;
+  font-size: 0.95rem;
+}
+
+.footer__links {
+  display: none;
+}

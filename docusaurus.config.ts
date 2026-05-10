@@ -102,42 +102,7 @@ const config: Config = {
     footer: {
       style: 'light',
 
-      links: [
-        {
-          title: 'Informations',
-          items: [
-            {
-              label: 'Programme',
-              to: '/docs/programme',
-            },
-            {
-              label: 'Lieu',
-              to: '/docs/lieu',
-            },
-            {
-              label: 'Hébergement',
-              to: '/docs/hebergement',
-            },
-          ],
-        },
-        {
-          title: 'Pratique',
-          items: [
-            {
-              label: 'Transport',
-              to: '/docs/transport',
-            },
-            {
-              label: 'FAQ',
-              to: '/docs/faq',
-            },
-            {
-              label: 'RSVP',
-              to: '/rsvp',
-            },
-          ],
-        },
-      ],
+      links: [],
 
       copyright: `Lisa-Marie & Thomas — 22 mai 2027`,
     },

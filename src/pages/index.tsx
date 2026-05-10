@@ -1,15 +1,40 @@
 import React from 'react';
 import Layout from '@theme/Layout';
 import Link from '@docusaurus/Link';
+import useBaseUrl from '@docusaurus/useBaseUrl';
 import './index.css';
 
 const cards = [
-  {title: 'Programme', href: '/docs/programme', icon: '🌿'},
-  {title: 'Lieu', href: '/docs/lieu', icon: '🏡'},
-  {title: 'Hébergement', href: '/docs/hebergement', icon: '🛏️'},
-  {title: 'Transport', href: '/docs/transport', icon: '🚗'},
-  {title: 'FAQ', href: '/docs/faq', icon: '❔'},
-  {title: 'RSVP', href: '/rsvp', icon: '✉️'},
+  {
+    title: 'Programme',
+    href: '/docs/programme',
+    image: '/img/marguerite.png',
+  },
+  {
+    title: 'Lieu',
+    href: '/docs/lieu',
+    image: '/img/olivier.png',
+  },
+  {
+    title: 'Hébergement',
+    href: '/docs/hebergement',
+    image: '/img/eucalyptus.png',
+  },
+  {
+    title: 'Transport',
+    href: '/docs/transport',
+    image: '/img/iris.png',
+  },
+  {
+    title: 'FAQ',
+    href: '/docs/faq',
+    image: '/img/marguerite.png',
+  },
+  {
+    title: 'RSVP',
+    href: '/rsvp',
+    image: '/img/olivier.png',
+  },
 ];
 
 export default function Home() {
@@ -28,7 +53,7 @@ export default function Home() {
             </h1>
             <p className="date">22 mai 2027</p>
             <p className="intro">
-              Nous avons hâte de célébrer ce moment unique avec vous en Provence.
+              Nous avons hâte de célébrer ce moment unique avec vous en Provence 🌿
             </p>
           </div>
 
@@ -37,6 +62,7 @@ export default function Home() {
 
         <section className="welcome">
           <h2>Bienvenue</h2>
+
           <p>
             Retrouvez ici toutes les informations pratiques pour notre mariage :
             programme, lieu, hébergement, transport et RSVP.
@@ -45,7 +71,14 @@ export default function Home() {
           <div className="cards">
             {cards.map((card) => (
               <Link className="card" href={card.href} key={card.title}>
-                <div className="cardIcon">{card.icon}</div>
+                <div className="cardImageWrapper">
+                  <img
+                    src={useBaseUrl(card.image)}
+                    alt={card.title}
+                    className="cardImage"
+                  />
+                </div>
+
                 <div>{card.title}</div>
               </Link>
             ))}
