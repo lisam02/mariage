@@ -121,6 +121,19 @@
   font-size: 1.5rem;
 }
 
+.rsvpHelpText {
+  margin: 0 0 1rem;
+  color: #5d594f;
+  font-size: 0.95rem;
+  line-height: 1.6;
+}
+
+.rsvpHelpText a {
+  color: #465238;
+  font-weight: 600;
+  text-decoration: underline;
+}
+
 @media (max-width: 700px) {
   .rsvpCard {
     padding: 2rem 1.3rem;

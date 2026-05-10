@@ -37,7 +37,7 @@ export default function RSVP() {
                 meal: form.get('meal'),
                 allergies: form.get('allergies'),
                 wants_lodging: wantsLodging,
-                lodging_nights: form.get('lodgingNights'),
+                lodging_nights: wantsLodging ? 'Samedi soir - tipi - 30€' : null,
                 lodging_notes: form.get('lodgingNotes'),
                 message: form.get('message'),
               });
@@ -112,27 +112,26 @@ export default function RSVP() {
                 <div className="rsvpSubsection">
                   <h2>Logement sur place</h2>
 
+                  <p className="rsvpHelpText">
+                    Un logement en tipi est proposé sur le domaine pour la nuit du samedi au dimanche,
+                    au tarif de 30 € par personne. Plus d’informations sont disponibles sur la page{' '}
+                    <a href="/mariage/docs/hebergement">Hébergement</a>.
+                  </p>
+
                   <label className="checkboxLabel">
                     <input
                       type="checkbox"
                       checked={wantsLodging}
                       onChange={(e) => setWantsLodging(e.target.checked)}
                     />
-                    Je souhaite un logement sur place
+                    Je souhaite réserver un logement en tipi pour la nuit du samedi
                   </label>
 
                   {wantsLodging && (
-                    <>
-                      <label>
-                        Nombre de nuits souhaitées
-                        <input name="lodgingNights" type="text" placeholder="Ex : 1 nuit, 2 nuits..." />
-                      </label>
-
-                      <label>
-                        Remarques concernant le logement
-                        <textarea name="lodgingNotes" rows={3} />
-                      </label>
-                    </>
+                    <label>
+                      Remarques concernant le logement
+                      <textarea name="lodgingNotes" rows={3} />
+                    </label>
                   )}
                 </div>
 
