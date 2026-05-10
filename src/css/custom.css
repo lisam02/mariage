@@ -69,3 +69,24 @@ body {
 .footer__links {
   display: none;
 }
+
+:root {
+  --ifm-background-color: #fbf6ec;
+  --ifm-background-surface-color: #fbf6ec;
+
+  --ifm-navbar-background-color: rgba(251, 246, 236, 0.92);
+  --ifm-footer-background-color: #f6efe3;
+
+  --ifm-color-emphasis-0: #fbf6ec;
+  --ifm-font-color-base: #2d2a24;
+}
+
+html[data-theme='dark'] {
+  --ifm-background-color: #fbf6ec;
+  --ifm-background-surface-color: #fbf6ec;
+
+  --ifm-navbar-background-color: rgba(251, 246, 236, 0.92);
+  --ifm-footer-background-color: #f6efe3;
+
+  --ifm-font-color-base: #2d2a24;
+}
