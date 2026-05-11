@@ -4,7 +4,7 @@ import type * as Preset from '@docusaurus/preset-classic';
 
 const config: Config = {
   title: 'Lisa-Marie & Thomas',
-  tagline: '22 mai 2027',
+  tagline: '22 mai 2027 — Prieuré de Badasset',
   favicon: 'img/logo.png',
 
   future: {
@@ -45,6 +45,14 @@ const config: Config = {
 
   themeConfig: {
     image: 'img/social-card.jpg',
+
+    metadata: [
+      {
+        name: 'description',
+        content:
+          'Informations pratiques et réponse au mariage de Lisa-Marie & Thomas',
+      },
+    ],
 
     colorMode: {
       defaultMode: 'light',
