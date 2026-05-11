@@ -46,7 +46,7 @@ Nous vous conseillons de rechercher un hébergement dans les villes alentours, n
 
 ---
 
-## Option auberge à Pélissanne
+## Option auberge à Pélissanne 🏠
 
 Sous réserve de disponibilités, d’un nombre suffisant de demandes et d’une participation de X € par personne, des places pourraient être proposées dans une auberge située à Pélissanne.
 

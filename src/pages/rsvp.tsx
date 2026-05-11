@@ -2,6 +2,7 @@ import React, {useState} from 'react';
 import Layout from '@theme/Layout';
 import './rsvp.css';
 import {supabase} from '../lib/supabase';
+import Link from '@docusaurus/Link';
 
 export default function RSVP() {
   const [attending, setAttending] = useState('');
@@ -12,7 +13,7 @@ export default function RSVP() {
     <Layout title="RSVP">
       <main className="rsvpPage">
         <section className="rsvpCard">
-          <p className="rsvpEyebrow">Réponse souhaitée</p>
+          <p className="rsvpEyebrow">Réponse souhaitée avant le 31 octobre 2026.</p>
 
           <h1>Votre réponse</h1>
 
@@ -34,10 +35,10 @@ export default function RSVP() {
                 attending,
                 has_plus_one: hasPlusOne,
                 plus_one_name: form.get('plusOneName'),
-                meal: form.get('meal'),
+                meal: form.get('vegetarian') === 'on' ? 'vegetarien' : 'standard',
                 allergies: form.get('allergies'),
                 wants_lodging: wantsLodging,
-                lodging_nights: wantsLodging ? 'Samedi soir - 30€' : null,
+                lodging_nights: wantsLodging ? 'Option auberge Pélissanne' : null,
                 lodging_notes: form.get('lodgingNotes'),
                 message: form.get('message'),
               });
@@ -94,15 +95,14 @@ export default function RSVP() {
                   </label>
                 )}
 
-                <label>
-                  Choix du repas
-                  <select name="meal">
-                    <option value="">Choisir...</option>
-                    <option value="viande">Viande</option>
-                    <option value="poisson">Poisson</option>
-                    <option value="vegetarien">Végétarien</option>
-                  </select>
-                </label>
+                <div className="rsvpSubsection">
+                  <h2>Dîner</h2>
+
+                  <label className="checkboxLabel">
+                    <input type="checkbox" name="vegetarian" />
+                    Je souhaite une option végétarienne
+                  </label>
+                </div>
 
                 <label>
                   Allergies ou contraintes alimentaires
@@ -110,12 +110,16 @@ export default function RSVP() {
                 </label>
 
                 <div className="rsvpSubsection">
-                  <h2>Logement sur place</h2>
+                  <h2>Hébergement</h2>
 
                   <p className="rsvpHelpText">
-                    Un logement en tipi est proposé sur le domaine pour la nuit du samedi au dimanche,
-                    au tarif de 30 € par personne. Plus d’informations sont disponibles sur la page{' '}
-                    <a href="/mariage/docs/hebergement">Hébergement</a>.
+                    Sous réserve de disponibilités et d’un nombre suffisant de demandes, 
+                    des places pourraient être proposées dans une auberge à Pélissanne, 
+                    avec un transport prévu vers 2h30 puis un retour au domaine
+                    le lendemain vers 11h pour le brunch.
+                    <br />
+                    Plus d’informations sont disponibles sur la page{' '}
+                    <Link to="/docs/transport-hebergement">Transport & hébergement</Link>.
                   </p>
 
                   <label className="checkboxLabel">
@@ -124,13 +128,17 @@ export default function RSVP() {
                       checked={wantsLodging}
                       onChange={(e) => setWantsLodging(e.target.checked)}
                     />
-                    Je souhaite réserver un logement en tipi pour la nuit du samedi
+                    Je suis intéressé(e) par cette option d’hébergement à Pélissanne
                   </label>
 
                   {wantsLodging && (
                     <label>
-                      Remarques concernant le logement
-                      <textarea name="lodgingNotes" rows={3} />
+                      Remarques concernant l’hébergement
+                      <textarea
+                        name="lodgingNotes"
+                        rows={3}
+                        placeholder="Nombre de personnes concernées, contraintes éventuelles..."
+                      />
                     </label>
                   )}
                 </div>
