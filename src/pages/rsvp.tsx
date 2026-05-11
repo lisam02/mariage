@@ -37,7 +37,7 @@ export default function RSVP() {
                 meal: form.get('meal'),
                 allergies: form.get('allergies'),
                 wants_lodging: wantsLodging,
-                lodging_nights: wantsLodging ? 'Samedi soir - tipi - 30€' : null,
+                lodging_nights: wantsLodging ? 'Samedi soir - 30€' : null,
                 lodging_notes: form.get('lodgingNotes'),
                 message: form.get('message'),
               });

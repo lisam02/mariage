@@ -77,18 +77,13 @@ const config: Config = {
           position: 'left',
         },
         {
-          to: '/docs/hebergement',
-          label: 'Hébergement',
+          to: '/docs/transport-hebergement',
+          label: 'Transport & Hébergement',
           position: 'left',
         },
         {
-          to: '/docs/transport',
-          label: 'Transport',
-          position: 'left',
-        },
-        {
-          to: '/docs/faq',
-          label: 'FAQ',
+          to: '/docs/cagnotte',
+          label: 'Cagnotte',
           position: 'left',
         },
         {

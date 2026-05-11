@@ -16,22 +16,22 @@ const cards = [
     image: '/img/olivier.png',
   },
   {
-    title: 'Hébergement',
-    href: '/docs/hebergement',
-    image: '/img/eucalyptus.png',
-  },
-  {
     title: 'Transport',
-    href: '/docs/transport',
+    href: '/docs/transport-hebergement',
     image: '/img/iris.png',
   },
   {
-    title: 'FAQ',
-    href: '/docs/faq',
+    title: 'Hébergement',
+    href: '/docs/transport-hebergement',
+    image: '/img/eucalyptus.png',
+  },
+  {
+    title: 'Cagnotte',
+    href: '/docs/cagnotte',
     image: '/img/marguerite.png',
   },
   {
-    title: 'RSVP',
+    title: 'Réponse',
     href: '/rsvp',
     image: '/img/olivier.png',
   },
@@ -65,7 +65,6 @@ export default function Home() {
 
           <p>
             Retrouvez ici toutes les informations pratiques pour notre mariage :
-            programme, lieu, hébergement, transport et RSVP.
           </p>
 
           <div className="cards">
@@ -84,6 +83,11 @@ export default function Home() {
             ))}
           </div>
         </section>
+        <p className="deadline">
+            <center> 
+              Merci de confirmer votre présence avant le 31 octobre 2026.
+            </center>
+        </p>
       </main>
     </Layout>
   );

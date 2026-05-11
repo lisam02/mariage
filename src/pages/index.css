@@ -163,3 +163,9 @@
     grid-template-columns: repeat(2, 1fr);
     }
 }
+
+.deadline {
+  margin-top: 2rem;
+  color: #7d745f;
+  font-style: italic;
+}

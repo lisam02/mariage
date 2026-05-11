@@ -90,3 +90,33 @@ html[data-theme='dark'] {
 
   --ifm-font-color-base: #2d2a24;
 }
+
+.wedding-doc-card {
+  max-width: 720px;
+  margin: 2rem auto;
+  padding: 2.5rem;
+  border: 1px solid rgba(111, 127, 85, 0.22);
+  border-radius: 28px;
+  background: rgba(255, 250, 242, 0.78);
+  box-shadow: 0 12px 35px rgba(70, 82, 56, 0.08);
+  text-align: center;
+  font-family: Georgia, 'Times New Roman', serif;
+  font-size: 1.25rem;
+  line-height: 1.7;
+}
+
+.wedding-button-row {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  margin-top: 1.5rem;
+  flex-wrap: wrap;
+}
+
+.wedding-button-row .button {
+  border-radius: 999px;
+  padding: 0.8rem 1.4rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  font-size: 0.85rem;
+}

@@ -4,9 +4,8 @@ const sidebars: SidebarsConfig = {
   tutorialSidebar: [
     'programme',
     'lieu',
-    'hebergement',
-    'transport',
-    'faq',
+    'transport-hebergement',
+    'cagnotte',
   ],
 };
 
