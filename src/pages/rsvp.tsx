@@ -2,13 +2,13 @@ import React, {useState} from 'react';
 import Layout from '@theme/Layout';
 import './rsvp.css';
 import {supabase} from '../lib/supabase';
-import Link from '@docusaurus/Link';
 
 export default function RSVP() {
   const [attending, setAttending] = useState('');
   const [hasPlusOne, setHasPlusOne] = useState(false);
   const [wantsLodging, setWantsLodging] = useState(false);
-
+  const [wantsBrunch, setWantsBrunch] = useState(false);
+  
   return (
     <Layout title="RSVP">
       <main className="rsvpPage">
@@ -36,6 +36,7 @@ export default function RSVP() {
                 has_plus_one: hasPlusOne,
                 plus_one_name: form.get('plusOneName'),
                 meal: form.get('vegetarian') === 'on' ? 'vegetarien' : 'standard',
+                wants_brunch: wantsBrunch,
                 allergies: form.get('allergies'),
                 wants_lodging: wantsLodging,
                 lodging_nights: wantsLodging ? 'Option logement Pélissanne' : null,
@@ -56,6 +57,7 @@ export default function RSVP() {
               setAttending('');
               setHasPlusOne(false);
               setWantsLodging(false);
+              setWantsBrunch(false);
             }}
           >
             <label>
@@ -101,6 +103,24 @@ export default function RSVP() {
                   <label className="checkboxLabel">
                     <input type="checkbox" name="vegetarian" />
                     Je souhaite une option végétarienne
+                  </label>
+                </div>
+
+                <div className="rsvpSubsection">
+                  <h2>Brunch du lendemain</h2>
+
+                  <p className="rsvpHelpText">
+                    Un brunch sera proposé au domaine le dimanche matin à partir de 11h00,
+                    pour celles et ceux qui souhaitent prolonger ce moment avec nous.
+                  </p>
+
+                  <label className="checkboxLabel">
+                    <input
+                      type="checkbox"
+                      checked={wantsBrunch}
+                      onChange={(e) => setWantsBrunch(e.target.checked)}
+                    />
+                    Je souhaite participer au brunch du dimanche
                   </label>
                 </div>
 

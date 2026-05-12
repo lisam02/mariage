@@ -12,6 +12,7 @@ type RSVP = {
   meal: string | null;
   allergies: string | null;
   wants_lodging: boolean;
+  wants_brunch: boolean;
   lodging_nights: string | null;
   lodging_notes: string | null;
   message: string | null;
@@ -103,6 +104,7 @@ const vegetarianCount = rsvps.filter(
                 <th>Nom</th>
                 <th>Présence</th>
                 <th>Repas</th>
+                <th>Brunch</th>
                 <th>Accompagnant</th>
                 <th>Logement</th>
                 <th>Allergies</th>
@@ -116,6 +118,7 @@ const vegetarianCount = rsvps.filter(
                   <td>{rsvp.name}</td>
                   <td>{rsvp.attending === 'yes' ? 'Présent(e)' : 'Absent(e)'}</td>
                   <td>{rsvp.meal || '-'}</td>
+                  <td>{rsvp.wants_brunch ? 'Oui' : '-'}</td>
                   <td>
                     {rsvp.has_plus_one
                       ? rsvp.plus_one_name || 'Oui'
