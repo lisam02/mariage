@@ -85,8 +85,13 @@ const config: Config = {
           position: 'left',
         },
         {
-          to: '/docs/transport-hebergement',
-          label: 'Transport & Hébergement',
+          to: '/docs/transport',
+          label: 'Transport',
+          position: 'left',
+        },
+        {
+          to: '/docs/hebergement',
+          label: 'Hébergement',
           position: 'left',
         },
         {

@@ -38,7 +38,7 @@ export default function RSVP() {
                 meal: form.get('vegetarian') === 'on' ? 'vegetarien' : 'standard',
                 allergies: form.get('allergies'),
                 wants_lodging: wantsLodging,
-                lodging_nights: wantsLodging ? 'Option auberge Pélissanne' : null,
+                lodging_nights: wantsLodging ? 'Option logement Pélissanne' : null,
                 lodging_notes: form.get('lodgingNotes'),
                 message: form.get('message'),
               });
@@ -114,12 +114,16 @@ export default function RSVP() {
 
                   <p className="rsvpHelpText">
                     Sous réserve de disponibilités et d’un nombre suffisant de demandes, 
-                    des places pourraient être proposées dans une auberge à Pélissanne, 
-                    avec un transport prévu vers 2h30 puis un retour au domaine
-                    le lendemain vers 11h pour le brunch.
+                    des places pourraient être proposées dans des chambres d'hôtes à Pélissanne.
                     <br />
                     Plus d’informations sont disponibles sur la page{' '}
-                    <Link to="/docs/transport-hebergement">Transport & hébergement</Link>.
+                    <a
+                      href="/mariage/docs/hebergement"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      Hébergement
+                    </a>
                   </p>
 
                   <label className="checkboxLabel">

@@ -17,12 +17,12 @@ const cards = [
   },
   {
     title: 'Transport',
-    href: '/docs/transport-hebergement',
+    href: '/docs/transport',
     image: '/img/iris.png',
   },
   {
     title: 'Hébergement',
-    href: '/docs/transport-hebergement',
+    href: '/docs/hebergement',
     image: '/img/eucalyptus.png',
   },
   {
