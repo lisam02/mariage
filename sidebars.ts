@@ -6,6 +6,7 @@ const sidebars: SidebarsConfig = {
     'lieu',
     'transport',
     'hebergement',
+    'infos',
     'cagnotte',
   ],
 };

@@ -95,6 +95,11 @@ const config: Config = {
           position: 'left',
         },
         {
+          to: '/docs/infos',
+          label: 'Infos partiques',
+          position: 'left',
+        },
+        {
           to: '/docs/cagnotte',
           label: 'Cagnotte',
           position: 'left',

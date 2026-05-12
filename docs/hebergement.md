@@ -33,7 +33,7 @@ Une option groupée à Pélissanne est également envisagée, sous réserve de d
 
 ---
 
-## Autres hénergements
+## Autres hébergements
 
 Vous pouvez également consulter le site de l’Office de Tourisme du Massif des Costes, qui répertorie des gîtes et chambres d’hôtes aux alentours :
 [Office de Tourisme du massif des Costes](https://www.massifdescostestourisme.com/sejourner/)
@@ -61,6 +61,6 @@ Un transport retour vers le domaine le lendemain aux alentours de 11h00 pourra �
 - Départ des chambres : entre **9h30 et 11h00**
 
 Cette option demande une organisation spécifique de notre part.  
-Si vous êtes intéressé(e), merci de nous l’indiquer dans la rubrique **« Votre réponse »** avant le **22 septembre 2026**, afin que nous puissions confirmer ou non la réservation et organiser la logistique.
+Si vous êtes intéressé(e), merci de nous l’indiquer dans la rubrique [**Votre réponse**](/rsvp) avant le **22 septembre 2026**, afin que nous puissions confirmer ou non la réservation et organiser la logistique.
 
 </div>
