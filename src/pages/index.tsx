@@ -85,9 +85,19 @@ export default function Home() {
         </section>
         <p className="deadline">
             <center> 
-              Merci de confirmer votre présence avant le 31 octobre 2026.
+              Merci de confirmer votre présence dès que possible, et au plus tard avant le 1<sup>er</sup> octobre 2026.
             </center>
         </p>
+
+        <div className="infoBox">
+          <p>
+            🌿 Le site sera régulièrement mis à jour au fil des préparatifs.
+            N’hésitez donc pas à le consulter de temps en temps.
+            <br />
+            Si vous avez la moindre question, vous pouvez bien sûr nous contacter directement.
+          </p>
+        </div>
+
       </main>
     </Layout>
   );

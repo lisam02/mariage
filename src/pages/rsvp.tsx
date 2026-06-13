@@ -7,7 +7,8 @@ export default function RSVP() {
     <Layout title="Votre réponse">
       <main className="rsvpPage">
         <section className="rsvpCard">
-          <p className="rsvpEyebrow">Réponse souhaitée avant le 31 octobre 2026</p>
+          <p className="rsvpEyebrow">Réponse souhaitée dès que possible, 
+            et au plus tard avant le 1<sup>er</sup> octobre 2026.</p>
 
           <h1>Votre réponse</h1>
 

@@ -17,7 +17,7 @@ Nous vous donnons rendez-vous au [Prieuré de Badasset](/mariage/docs/lieu), à 
 
 Un vin d’honneur sera servi sur place, dans le jardin du [domaine](/mariage/docs/lieu).
 
-### 20h00 — Dîner & Soirée 🥂𝄞
+### ~20h00 — Dîner & Soirée 🥂𝄞
 
 Nous prolongerons cette belle journée autour d’un dîner, suivi de la soirée au [Prieuré de Badasset](/mariage/docs/lieu).
 

@@ -61,6 +61,6 @@ Un transport retour vers le domaine le lendemain aux alentours de 11h00 pourra �
 - Départ des chambres : entre **9h30 et 11h00**
 
 Cette option demande une organisation spécifique de notre part.  
-Si vous êtes intéressé(e), merci de nous l’indiquer dans la rubrique [**Votre réponse**](/rsvp) avant le **22 septembre 2026**, afin que nous puissions confirmer ou non la réservation et organiser la logistique.
+Si vous êtes intéressé(e), merci de nous l’indiquer dans la rubrique [**Votre réponse**](/rsvp) avant le **31 août 2026**, afin que nous puissions confirmer ou non la réservation et organiser la logistique.
 
 </div>

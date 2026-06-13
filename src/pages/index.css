@@ -170,3 +170,17 @@
   font-style: italic;
   font-weight: bold;
 }
+
+.infoBox {
+  max-width: 700px;
+  margin: 2rem auto 0;
+  padding: 1rem 1.5rem;
+  background: rgba(255, 255, 255, 0.45);
+  border: 1px solid rgba(70, 82, 56, 0.15);
+  border-radius: 14px;
+  color: #5f5a4f;
+  font-size: 0.95rem;
+  line-height: 1.6;
+  font-style: italic;
+  text-align: center;
+}
