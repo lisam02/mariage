@@ -38,6 +38,8 @@ Un parking sera disponible directement sur place pour les invités.
 
 Un brunch sera proposé le dimanche à partir de 11h00 au domaine pour celles et ceux qui souhaitent prolonger ce moment avec nous.
 
+Si la météo est de la partie, vous pourrez également profiter de la piscine. N'hésitez donc pas à glisser votre maillot de bain dans votre valise ! ☀️👙
+
 ---
 
 ## Photos
