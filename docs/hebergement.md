@@ -8,12 +8,7 @@ title: Hébergement
 <div className="wedding-doc-card">
 
 Il n’y a pas de possibilité de logement directement sur le domaine.
-Nous vous conseillons de rechercher un hébergement dans les villes alentours, notamment **Vernègues, Alleins, Cazan, La Barben, Pélissanne, Lambesc, Lançon-Provence** ou **Salon-de-Provence**.
-
-Une option groupée à Pélissanne est également envisagée, sous réserve de disponibilités et d’un nombre suffisant de demandes.
-<a className="button button--primary button--lg" href="#auberge">
-  Voir l’option à Pélissanne
-</a>
+Nous vous conseillons de rechercher un hébergement dans les villes alentours, notamment **Pélissanne, Vernègues, Alleins, Cazan, Lambesc, Lançon-Provence** ou **Salon-de-Provence**.
 
 ---
 
@@ -33,34 +28,17 @@ Une option groupée à Pélissanne est également envisagée, sous réserve de d
 
 ---
 
+## Venir en van 🚐
+
+Si vous disposez d’un van ou d’un véhicule aménagé, il sera possible de le stationner sur le parking du domaine et d’y passer la nuit après la fête.
+
+Pensez simplement à nous le préciser dans votre réponse afin que nous puissions nous organiser au mieux.
+
+---
+
 ## Autres hébergements
 
 Vous pouvez également consulter le site de l’Office de Tourisme du Massif des Costes, qui répertorie des gîtes et chambres d’hôtes aux alentours :
 [Office de Tourisme du massif des Costes](https://www.massifdescostestourisme.com/sejourner/)
-
----
-
-<a id="auberge"></a>
-
-## Option chambre d’hôtes à Pélissanne
-
-Sous réserve de disponibilités, d’un nombre suffisant de demandes et d’une participation de **60 € par personne**, des places pourraient être proposées dans une chambre d’hôtes située à Pélissanne.
-
-**Cette option comprendrait :** <br/>
-🛏️ une nuit à Pélissanne ; <br/>
-🚌 un transport du domaine vers l’hébergement en fin de soirée.
-
-Cette solution est proposée afin de permettre à ceux qui le souhaitent de profiter pleinement de la soirée, sans avoir à conduire après les festivités.
-
-Un transport retour vers le domaine le lendemain aux alentours de 11h00 pourra également être proposé, sous réserve d’organisation, pour les personnes ayant laissé leur véhicule sur place et souhaitant éventuellement participer au brunch.
-
-### Informations pratiques
-
-- Nombre de places envisagé : **19**
-- Récupération des clés : entre **16h00 et 19h00**
-- Départ des chambres : entre **9h30 et 11h00**
-
-Cette option demande une organisation spécifique de notre part.  
-Si vous êtes intéressé(e), merci de nous l’indiquer dans la rubrique [**Votre réponse**](/rsvp) avant le **31 août 2026**, afin que nous puissions confirmer ou non la réservation et organiser la logistique.
 
 </div>

@@ -84,9 +84,11 @@ export default function Home() {
           </div>
         </section>
         <p className="deadline">
-            <center> 
-              Merci de confirmer votre présence dès que possible, et au plus tard avant le 1<sup>er</sup> octobre 2026.
-            </center>
+          <center>
+            Merci de confirmer votre présence dès que possible, et au plus tard avant le 1<sup>er</sup> octobre 2026, 
+            en remplissant le formulaire{' '}
+            <Link to="/rsvp">Votre Réponse</Link>.
+          </center>
         </p>
 
         <div className="infoBox">

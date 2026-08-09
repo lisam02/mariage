@@ -30,9 +30,9 @@ Un parking sera disponible sur place pour les invités.
 
 ## Temps de trajet indicatifs
 
+🌼 Pélissanne : environ 10 min <br/>
 🪻 Alleins : environ 12 min <br/>
 🏵️ Lambesc : environ 12 min <br/>
-🌼 Pélissanne : environ 10 min <br/>
 🌸 Lançon-Provence : environ 15 min <br/>
 🌻 Salon-de-Provence : environ 20 min
 

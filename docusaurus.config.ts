@@ -96,7 +96,7 @@ const config: Config = {
         },
         {
           to: '/docs/infos',
-          label: 'Infos partiques',
+          label: 'Infos pratiques',
           position: 'left',
         },
         {

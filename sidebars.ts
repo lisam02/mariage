@@ -8,6 +8,11 @@ const sidebars: SidebarsConfig = {
     'hebergement',
     'infos',
     'cagnotte',
+     {
+      type: 'link',
+      label: 'Votre réponse',
+      href: '/rsvp',
+    },
   ],
 };
 
